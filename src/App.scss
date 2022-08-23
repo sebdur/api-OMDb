@@ -1,0 +1,42 @@
+@import '~bootstrap/scss/bootstrap';
+
+.container {
+  .title {
+    font-size: 22.5px;
+    font-weight: bold;
+  }
+  .card {
+    margin: 1rem 0;
+    background: #fafafa;
+    .card-img-top {
+      height: 448px;
+      object-fit: cover;
+    }
+    .card-body {
+      .card-title {
+        font-weight: bold;
+        height: 50px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    .card {
+      .card-img-top {
+        height: 318px;        
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    .card {
+      .card-img-top {
+        height: 100%;        
+      }
+    }
+  }
+}
