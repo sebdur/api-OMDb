@@ -12,11 +12,11 @@ function App() {
   const [queryMovies, setQueryMovies] = useState([]);
   const [queryResults, setQueryResults] = useState([]);
 
-  const clearQueryMovies = async function () {
+  function clearQueryMovies() {
     setQueryMovies([]);
   };
 
-  const clearQueryResults = async function () {
+  function clearQueryResults() {
     setQueryResults([]);
   };
 
