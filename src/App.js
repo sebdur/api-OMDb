@@ -12,13 +12,13 @@ function App() {
   const [queryMovies, setQueryMovies] = useState([]);
   const [queryResults, setQueryResults] = useState([]);
 
-  const clearQueryMovies = async function () {
+  function clearQueryMovies() {
     setQueryMovies([]);
-  };
+  }
 
-  const clearQueryResults = async function () {
+  function clearQueryResults() {
     setQueryResults([]);
-  };
+  }
 
   async function searchTitles(e) {
     const query = e.target.value;
@@ -83,7 +83,10 @@ function App() {
           <input className='form-control' onChange={searchTitles} placeholder='Buscar...' />
         </div>
         <div className='col-3'>
-          <button className='btn btn-outline-secondary float-end' onClick={() => fetchList()}>
+          <button
+            className='btn btn-outline-dark float-end'
+            onClick={() => fetchList()}
+          >
             Lista
           </button>
         </div>
