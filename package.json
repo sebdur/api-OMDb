@@ -1,5 +1,6 @@
 {
   "name": "api-OMDb",
+  "homepage": "https://sebdur.github.io/api-OMDb/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

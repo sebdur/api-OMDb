@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/api-OMDb/static/css/main.e25e5853.css",
+    "main.js": "/api-OMDb/static/js/main.ba9f6395.js",
+    "index.html": "/api-OMDb/index.html",
+    "main.e25e5853.css.map": "/api-OMDb/static/css/main.e25e5853.css.map",
+    "main.ba9f6395.js.map": "/api-OMDb/static/js/main.ba9f6395.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e25e5853.css",
+    "static/js/main.ba9f6395.js"
+  ]
+}
